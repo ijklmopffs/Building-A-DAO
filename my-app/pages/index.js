@@ -89,7 +89,7 @@ export default function Home() {
       setLoading(false);
     } catch (error) {
       console.error(error);
-      window.alert(error.data.message);
+      window.alert(error);
     }
   };
 
@@ -146,7 +146,7 @@ export default function Home() {
       await fetchAllProposals();
     } catch (error) {
       console.error(error);
-      window.alert(error.data.message);
+      window.alert(error);
     }
   };
 
@@ -163,7 +163,7 @@ export default function Home() {
       await fetchAllProposals();
     } catch (error) {
       console.error(error);
-      window.alert(error.data.message);
+      window.alert(error);
     }
   };
 

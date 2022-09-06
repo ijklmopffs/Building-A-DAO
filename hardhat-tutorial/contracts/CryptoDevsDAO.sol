@@ -4,8 +4,6 @@ pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-
-
 // We will add the Interfaces here
 interface IFakeNFTMarketplace {
     // @dev getPrice() returns the price of an NFT from the FakeNFTMarketplace
